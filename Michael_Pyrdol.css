@@ -1,0 +1,42 @@
+:root{
+    --color1:#ffe680;
+    --color2:#ffcd00;
+}
+body{
+    background-color:var(--color1);
+}
+h1{
+    font-family:"Brush Script MT";
+    font-size:10vw;
+    text-align:center;
+    line-height:0;
+}
+h2{
+    text-align:center;
+    font-size:1.5vw;
+    background-color:var(--color2);
+}
+h3{
+    text-align:center;
+    background-color:var(--color1);
+}
+hr{
+    border-top:1vh solid var(--color2);
+    border-bottom:1vh solid var(--color2);
+}
+table{
+    background-color:var(--color2);
+    margin-left:auto;
+    margin-right:auto;
+    font-size:1vw;
+}
+th{
+    font-size:2vw;
+    background-color:var(--color1);
+}
+.milk{
+    width:18vw;
+}
+.column{
+    background-color:var(--color1);
+}
